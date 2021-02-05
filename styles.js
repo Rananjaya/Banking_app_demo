@@ -13,7 +13,7 @@ const styles = StyleSheet.create({
     },
     full_contionor : {
         flex:1,
-        backgroundColor : "#E5E5E5"
+        backgroundColor : "#FFFFFF"
     },
     headder : {
 
@@ -31,22 +31,26 @@ const styles = StyleSheet.create({
         width : (window.width)*0.1
     },
     welconetxt : {
-        fontSize : (window.width)*0.065
+        fontSize : (window.width)*0.065,
+        fontFamily : "OpenSans-SemiBold"
     },
     hello_txt : {
         flexDirection : "row",
         justifyContent : "space-between",
         marginTop:(window.height)*0.05,
         marginLeft:(window.width)*0.08,
-        marginRight:(window.width)*0.06
+        marginRight:(window.width)*0.06,
+        fontFamily : "OpenSans-Light"
     },
     hello : {
         fontSize : (window.width)*0.055,
+        fontFamily : "OpenSans-Regular"
         //fontWeight : "bold",
     },
     balanace_text : {
         fontSize : (window.width)*0.044,
-        fontWeight : "bold"
+        //fontWeight : "bold",
+        fontFamily : "OpenSans-SemiBold"
     },
     credit_card_con : {
         alignSelf: 'center' // aligh self
@@ -58,7 +62,7 @@ const styles = StyleSheet.create({
         width : (window.width)*0.94,
         borderRadius : (window.width)*0.04,
         shadowColor: "gray",
-        elevation: 1.9,
+        elevation: 8
     },
     insdie_card_main : {
         flexDirection : "row",
@@ -68,15 +72,17 @@ const styles = StyleSheet.create({
         marginTop : (window.height)*0.025
     },
     credit_text : {
-        fontSize : (window.width)*0.05,
-        fontWeight : "bold",
-        color : "#fff"
+        fontSize : (window.width)*0.06,
+        //fontWeight : "bold",
+        color : "#fff",
+        fontFamily : "OpenSans-SemiBold"
     },
     visa_text : {
         fontSize : (window.width)*0.07,
         fontStyle : "italic",
         fontWeight : "bold",
-        color : "#fff"
+        color : "#fff",
+        fontFamily : "OpenSans-BoldItalic"
     },
     mycard_name_con : {
       marginLeft  :(window.width)*0.05,
@@ -86,28 +92,33 @@ const styles = StyleSheet.create({
         //fontWeight:"bold",
         color : "#fff",
         fontSize : (window.width)*0.04,
+        fontFamily : "OpenSans-SemiBold"
         },
         name : {
-            fontWeight : "bold",
-            fontSize : (window.width)*0.05
+            //fontWeight : "bold",
+            fontSize : (window.width)*0.05,
+            fontFamily :"OpenSans-SemiBold"
         },
         blanace : {
             marginTop :(window.height)*0.02,
-            marginLeft : (window.width)*0.122
+            marginLeft : (window.width)*0.122,
+            fontFamily : "OpenSans-Regular"
         },
         small_cards: {
             height:(window.width)*0.23,
             width : (window.width)*0.25,
             backgroundColor : "#fff",
             shadowColor: "gray",
-            elevation: 1.9,
+            elevation: 8,
             borderRadius : (window.width)*0.02
         },
         wide_card_text_1 : {
-            fontWeight:"bold",
-            fontSize : (window.width)*0.045
+            //fontWeight:"bold",
+            fontSize : (window.width)*0.045,
+            fontFamily : "OpenSans-SemiBold"
         },
         bottom_wide_card : {
+            //marginTop:(window.height)*0.05,
             height : (window.width)*0.2,
             width : (window.width)*0.9,
             backgroundColor : "#fff",
@@ -117,7 +128,7 @@ const styles = StyleSheet.create({
             marginBottom : (window.width)*0.02,
             borderRadius : (window.width)*0.02,
             shadowColor: "gray",
-            elevation: 1.9,
+            elevation: 8,
         }
 
 

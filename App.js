@@ -76,7 +76,7 @@ const App: () => React$Node = () => {
                        </View>
                        <View style={styles.mycard_name_con}>
                          <Text style={styles.mycard_font}>Bandara M.G.R.C</Text>
-                         <Text style={{marginTop : (window.width)*0.03,fontSize:(window.width)*0.04,color : "#fff"}}>0000 - 0000 - 0000 - 0000</Text>
+                         <Text style={{marginTop : (window.width)*0.03,fontSize:(window.width)*0.04,color : "#fff",fontFamily : "OpenSans-SemiBold"}}>0000 - 0000 - 0000 - 0000</Text>
                        </View>
                      
                    </View>
@@ -85,7 +85,7 @@ const App: () => React$Node = () => {
               <View>
                  <View style={{flexDirection:"row",justifyContent:"space-between",marginLeft:(window.width)*0.05,marginRight : (window.width)*0.05,marginTop : (window.width)*0.05}}>
                       <View>
-                        <Text style={{fontSize:(window.width)*0.045,fontWeight:"bold"}}>Mobile Wallet</Text>
+                        <Text style={{fontSize:(window.width)*0.045,fontFamily : "OpenSans-SemiBold"}}>Mobile Wallet</Text>
                         </View> 
                       
                   </View>

@@ -13,7 +13,7 @@ const styles = StyleSheet.create({
     },
     full_contionor : {
         flex:1,
-        backgroundColor : "#FFFFFF"
+        backgroundColor : "#764ba2"
     },
     headder : {
 
@@ -32,7 +32,7 @@ const styles = StyleSheet.create({
     },
     welconetxt : {
         fontSize : (window.width)*0.065,
-        fontFamily : "OpenSans-SemiBold"
+        fontFamily : "Montserrat-Medium"
     },
     hello_txt : {
         flexDirection : "row",
@@ -42,15 +42,26 @@ const styles = StyleSheet.create({
         marginRight:(window.width)*0.06,
         fontFamily : "OpenSans-Light"
     },
+    hello_txt_2 : {
+        flexDirection : "row",
+        justifyContent : "space-between",
+        marginTop:(window.height)*0.01,
+        marginLeft:(window.width)*0.08,
+        marginRight:(window.width)*0.06,
+       
+        //fontFamily : "OpenSans-Light",
+        
+    },
     hello : {
         fontSize : (window.width)*0.055,
-        fontFamily : "OpenSans-Regular"
+        fontFamily : "Montserrat-Medium",
+        color : "#000"
         //fontWeight : "bold",
     },
     balanace_text : {
         fontSize : (window.width)*0.044,
         //fontWeight : "bold",
-        fontFamily : "OpenSans-SemiBold"
+        fontFamily : "Montserrat-Medium"
     },
     credit_card_con : {
         alignSelf: 'center' // aligh self
@@ -95,22 +106,28 @@ const styles = StyleSheet.create({
         fontFamily : "OpenSans-SemiBold"
         },
         name : {
-            //fontWeight : "bold",
-            fontSize : (window.width)*0.05,
-            fontFamily :"OpenSans-SemiBold"
+            fontWeight : "bold",
+            fontSize : (window.width)*0.08,
+            fontFamily :"Montserrat-ExtraBold",
+            color : "#fff"
         },
         blanace : {
-            marginTop :(window.height)*0.02,
+            //marginTop :(window.height)*0.02,
             marginLeft : (window.width)*0.122,
-            fontFamily : "OpenSans-Regular"
+            fontFamily : "OpenSans-Regular",
+            fontSize : (window.height)*0.04,
+            color : "#fff",
+            fontWeight : "bold"
         },
         small_cards: {
             height:(window.width)*0.23,
             width : (window.width)*0.25,
             backgroundColor : "#fff",
-            shadowColor: "gray",
+            shadowColor: "#859FF6",
             elevation: 8,
-            borderRadius : (window.width)*0.02
+            borderRadius : (window.width)*0.02,
+            justifyContent : "center",
+            alignItems : "center"
         },
         wide_card_text_1 : {
             //fontWeight:"bold",
@@ -127,8 +144,12 @@ const styles = StyleSheet.create({
             //justifyContent : "center",
             marginBottom : (window.width)*0.02,
             borderRadius : (window.width)*0.02,
-            shadowColor: "gray",
+            shadowColor: "#859FF6",
             elevation: 8,
+        },
+        icons_small_card : {
+            height : (window.width)*0.15,
+            width : (window.width)*0.15
         }
 
 

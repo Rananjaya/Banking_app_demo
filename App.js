@@ -25,8 +25,8 @@ import {
   DebugInstructions,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
-import menu from './src/img/meat.png';
-import user from './src/img/user.png';
+import menu from './src/img/menu.png';
+import user from './src/img/man.png';
 import mobile1 from './src/img/credit-card.png';
 import pay from './src/img/payment-method.png';
 import pay2 from './src/img/qr_scann+phone.png';
@@ -56,7 +56,7 @@ const App: () => React$Node = () => {
 
         <View style={styles.hello_txt}>
           <View>
-            <Text style={styles.hello}>Hello</Text>
+            <Text style={styles.hello}>Welcome</Text>
             {/* <Text style={styles.name}>Rananjaya</Text> */}
           </View>
           <View>
@@ -100,7 +100,7 @@ const App: () => React$Node = () => {
           <View>
             <View style={{ flexDirection: "row", justifyContent: "space-between", marginLeft: (window.width) * 0.05, marginRight: (window.width) * 0.05, marginTop: (window.width) * 0.05 }}>
               <View>
-                <Text style={{ fontSize: (window.width) * 0.045, fontFamily: "OpenSans-SemiBold" }}>Mobile Wallet</Text>
+                <Text style={{ fontSize: (window.width) * 0.045, fontFamily: "OpenSans-SemiBold",color : "#fff" }}>Mobile Wallet</Text>
               </View>
 
             </View>
@@ -112,6 +112,10 @@ const App: () => React$Node = () => {
 
                   <Image source={mobile1} style={styles.icons_small_card} />
                 </View>
+                <View style={styles.card_caption}>
+
+                 <Text style={styles.card_caption_text}>Payment</Text>
+                </View>
 
 
               </View>
@@ -120,12 +124,20 @@ const App: () => React$Node = () => {
 
                   <Image source={pay} style={styles.icons_small_card} />
                 </View>
+                <View style={styles.card_caption}>
+
+                    <Text style={styles.card_caption_text}>Transfer</Text>
+                  </View>
               </View>
               <View style={styles.small_cards}>
                 <View>
 
                   <Image source={pay2} style={styles.icons_small_card} />
                 </View>
+                <View style={styles.card_caption}>
+
+                       <Text style={styles.card_caption_text}>QR</Text>
+                   </View>
               </View>
 
               {/* </ScrollView> */}

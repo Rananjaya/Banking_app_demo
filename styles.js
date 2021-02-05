@@ -32,7 +32,8 @@ const styles = StyleSheet.create({
     },
     welconetxt : {
         fontSize : (window.width)*0.065,
-        fontFamily : "Montserrat-Medium"
+        fontFamily : "OpenSans-ExtraBold",
+        color : "#fff"
     },
     hello_txt : {
         flexDirection : "row",
@@ -53,22 +54,23 @@ const styles = StyleSheet.create({
         
     },
     hello : {
-        fontSize : (window.width)*0.055,
+        fontSize : (window.width)*0.059,
         fontFamily : "Montserrat-Medium",
-        color : "#000"
+        color : "#fff"
         //fontWeight : "bold",
     },
     balanace_text : {
-        fontSize : (window.width)*0.044,
+        fontSize : (window.width)*0.06,
         //fontWeight : "bold",
-        fontFamily : "Montserrat-Medium"
+        fontFamily : "OpenSans-Bold",
+        color : "#fff"
     },
     credit_card_con : {
         alignSelf: 'center' // aligh self
     },
     credit_card : {
         marginTop : (window.height)*0.03,
-        backgroundColor : "#859FF6",
+        backgroundColor : "#2F2C39",
         height : (window.width)*0.5,
         width : (window.width)*0.94,
         borderRadius : (window.width)*0.04,
@@ -120,7 +122,7 @@ const styles = StyleSheet.create({
             fontWeight : "bold"
         },
         small_cards: {
-            height:(window.width)*0.23,
+            height:(window.width)*0.29,
             width : (window.width)*0.25,
             backgroundColor : "#fff",
             shadowColor: "#859FF6",
@@ -132,7 +134,8 @@ const styles = StyleSheet.create({
         wide_card_text_1 : {
             //fontWeight:"bold",
             fontSize : (window.width)*0.045,
-            fontFamily : "OpenSans-SemiBold"
+            fontFamily : "OpenSans-SemiBold",
+            color : "#fff" 
         },
         bottom_wide_card : {
             //marginTop:(window.height)*0.05,
@@ -146,10 +149,18 @@ const styles = StyleSheet.create({
             borderRadius : (window.width)*0.02,
             shadowColor: "#859FF6",
             elevation: 8,
+            
         },
         icons_small_card : {
             height : (window.width)*0.15,
             width : (window.width)*0.15
+        },
+        card_caption : {
+            marginTop:(window.width)*0.03
+        },
+        card_caption_text : {
+            fontSize:(window.width)*0.049,
+            fontFamily : "OpenSans-SemiBold",
         }
 
 

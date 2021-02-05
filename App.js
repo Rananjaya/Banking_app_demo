@@ -31,6 +31,8 @@ import mobile1 from './src/img/credit-card.png';
 import pay from './src/img/payment-method.png';
 import pay2 from './src/img/qr_scann+phone.png';
 import Back_ground from './src/img/aaaa.png'
+import Mobile_relode from './src/img/reload.png';
+import Mondey_trnasfer from './src/img/money-transfer_2.png';
 const window = Dimensions.get('window');
 
 import styles from './styles';
@@ -151,7 +153,43 @@ const App: () => React$Node = () => {
 
               <View style={{}}>
                 <View style={styles.bottom_wide_card}>
+                     <View style={styles.bottom_wide_card_row}> 
+                         <View style={styles.bottom_wide_card_owl}>
+                             <Image source={Mobile_relode} style={styles.circal_image}/>
+                         </View>
 
+                           <View>
+                             <Text style={styles.Reload_text}>Reloade</Text>
+                           </View>
+
+                           <View>
+                             <Text style={styles.Date_text}>2021-01-01</Text>
+                           </View>
+                     </View>
+
+                     <View style={styles.bottom_wind_card_2nd_row}>
+
+                     </View>
+                </View>
+
+                <View style={styles.bottom_wide_card}>
+                     <View style={styles.bottom_wide_card_row}> 
+                         <View style={styles.bottom_wide_card_owl}>
+                             <Image source={Mondey_trnasfer} style={styles.circal_image}/>
+                         </View>
+
+                           <View>
+                             <Text style={styles.Reload_text}>Transfer</Text>
+                           </View>
+
+                           <View>
+                             <Text style={styles.Date_text}>2021-01-06</Text>
+                           </View>
+                     </View>
+
+                     <View style={styles.bottom_wind_card_2nd_row}>
+
+                     </View>
                 </View>
           
 

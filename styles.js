@@ -75,7 +75,7 @@ const styles = StyleSheet.create({
         width : (window.width)*0.94,
         borderRadius : (window.width)*0.04,
         shadowColor: "gray",
-        elevation: 8
+        elevation: 10
     },
     insdie_card_main : {
         flexDirection : "row",
@@ -139,7 +139,7 @@ const styles = StyleSheet.create({
         },
         bottom_wide_card : {
             //marginTop:(window.height)*0.05,
-            height : (window.width)*0.2,
+            height : (window.width)*0.24,
             width : (window.width)*0.9,
             backgroundColor : "#fff",
             marginTop : (window.width)*0.02,
@@ -149,6 +149,7 @@ const styles = StyleSheet.create({
             borderRadius : (window.width)*0.02,
             shadowColor: "#859FF6",
             elevation: 8,
+            justifyContent : "space-between"
             
         },
         icons_small_card : {
@@ -161,6 +162,40 @@ const styles = StyleSheet.create({
         card_caption_text : {
             fontSize:(window.width)*0.049,
             fontFamily : "OpenSans-SemiBold",
+        },
+        bottom_wide_card_row : {
+            flexDirection : "row",
+            justifyContent : "space-between",
+            marginLeft : (window.width)*0.03,
+            marginRight : (window.width)*0.03,
+            marginTop : (window.width)*0.039
+        },
+        bottom_wide_card_owl : {
+            backgroundColor : "#2F2C39",
+            width: (window.width)*0.17,
+            height : (window.width)*0.17,
+            borderRadius : (window.width)*0.1,
+            // marginTop :(window.width)*0.023,
+            // marginLeft : (window.width)*0.02
+
+        },
+        circal_image : {
+            height : (window.width)*0.08,
+            width : (window.width)*0.08,
+            marginTop : (window.width)*0.043,
+            marginLeft : (window.width)*0.044
+        },
+        Reload_text : {
+            fontSize : (window.width)*0.06,
+            //marginLeft :(window.width)*0.07,
+            fontFamily : "OpenSans-SemiBold",
+            marginTop:(window.width)*0.03
+        },
+        Date_text : {
+            fontSize : (window.width)*0.04,
+            //marginLeft :(window.width)*0.07,
+            fontFamily : "OpenSans-SemiBold",
+            marginTop:(window.width)*0.03
         }
 
 
